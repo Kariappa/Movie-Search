@@ -5,10 +5,12 @@ import MovieCard from './MovieCard'
 
 const MovieList = () => {
 
+    //State for SearchBar
     const [query, setQuery] = useState('');
-    // Initial value is empty, 
-    // returns actual state and function to update state
+
+    //State for Movie Info
     const [movieData, setMovieData] = useState([])
+
 
     const MovieList = async (event) => {
         event.preventDefault();
@@ -16,9 +18,9 @@ const MovieList = () => {
         try {
             if (query.length > 0) {
 
-            const res = await fetch(url)
-            const data = await res.json()
-            setMovieData(data.results);
+                const res = await fetch(url)
+                const data = await res.json()
+                setMovieData(data.results);
             }
             else {
                 alert("Please enter a movie name")
@@ -27,10 +29,6 @@ const MovieList = () => {
         } catch (err) {
             console.log(err)
         }
-
-
-
-
     }
 
     return (
@@ -45,15 +43,11 @@ const MovieList = () => {
             </form>
             <div className='card-list'>
                 {movieData.filter(movie => movie.poster_path).map(movie => (
-                    <MovieCard movie={movie} key={movie.id}/>
+                    <MovieCard movie={movie} key={movie.id} />
                 ))}
-
-
             </div>
         </>
-
     )
-
 }
 
 export default MovieList
