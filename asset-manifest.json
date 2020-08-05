@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Movie-Search/static/css/main.65fb4fc7.chunk.css",
+    "main.js": "/Movie-Search/static/js/main.e200c090.chunk.js",
+    "main.js.map": "/Movie-Search/static/js/main.e200c090.chunk.js.map",
+    "runtime-main.js": "/Movie-Search/static/js/runtime-main.ec789e46.js",
+    "runtime-main.js.map": "/Movie-Search/static/js/runtime-main.ec789e46.js.map",
+    "static/js/2.59e20c84.chunk.js": "/Movie-Search/static/js/2.59e20c84.chunk.js",
+    "static/js/2.59e20c84.chunk.js.map": "/Movie-Search/static/js/2.59e20c84.chunk.js.map",
+    "index.html": "/Movie-Search/index.html",
+    "precache-manifest.c96a7703aa6de98af0dedd0d8adc2a68.js": "/Movie-Search/precache-manifest.c96a7703aa6de98af0dedd0d8adc2a68.js",
+    "service-worker.js": "/Movie-Search/service-worker.js",
+    "static/css/main.65fb4fc7.chunk.css.map": "/Movie-Search/static/css/main.65fb4fc7.chunk.css.map",
+    "static/js/2.59e20c84.chunk.js.LICENSE.txt": "/Movie-Search/static/js/2.59e20c84.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Movie-Search/static/media/Bungee-Regular.ed9ce0a2.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec789e46.js",
+    "static/js/2.59e20c84.chunk.js",
+    "static/css/main.65fb4fc7.chunk.css",
+    "static/js/main.e200c090.chunk.js"
+  ]
+}
